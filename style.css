@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+}
+.right{
+    width: 50%;
+}
+.left{
+    width: 50%;
+    background-color: rgb(205, 183, 155);
+    display: flex;
+    align-items: center;
+}
+form{
+    border: 2px solid black;
+   margin: 70px;
+   background-color: brown;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   border-radius: 20px;
+   font-size:  20px;
+   
+}
+.form-control{
+    border-radius: 15%;
+}
+form p{
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
+.main .right a {
+    color: black; /* Set the text color to black */
+    text-decoration: underline; /* Underline the text */
+}
+
+/* Optional: Remove the default Bootstrap link color on hover */
+.main .right a:hover {
+    color: black; /* Ensure the hover color remains black */
+}
+
+
+.form-group{
+    padding: 8px;
+    text-align: center;
+  
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+}
